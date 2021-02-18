@@ -15,13 +15,14 @@ body{
     height: 100vh;
     overflow: hidden;
     position: relative;
+    overflow: scroll;
 }
 
 .container  {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,0,0,1) 86%);
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
-    padding: 50px 20px;
+    padding: 50px;
     text-align: center;
     max-width: 100%;
     width: 800px;
@@ -45,7 +46,7 @@ body{
     font-family: inherit;
     cursor: pointer;
     width:180px;
-    height:80px;
+    height:60px;
     text-align:center;
     line-height:1.1em;
     font-size:1.1em;
