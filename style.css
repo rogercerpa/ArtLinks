@@ -14,6 +14,7 @@ body{
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 .container  {
@@ -24,8 +25,15 @@ body{
     text-align: center;
     max-width: 100%;
     width: 800px;
+    position: absolute;
 }
 
+.btnContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
 
 .btn {
     background-color: rgb(243, 17, 17);
@@ -33,14 +41,21 @@ body{
     border: none;
     color: #fff;
     margin: 1rem ;
-    padding: 1.5rem 3rem;
     font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
+    width:180px;
+    height:80px;
+    text-align:center;
+    line-height:1.1em;
+    font-size:1.1em;
+    flex-direction: row;
+    
 }
 
 .btn:hover {
-   opacity: 0.9; 
+   opacity: 0.5; 
+   color:rgba(34,193,195,1) ;
 }
 
 .btn:focus {
