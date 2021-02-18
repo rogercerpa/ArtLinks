@@ -15,7 +15,7 @@ body{
     height: 100vh;
     overflow: hidden;
     position: relative;
-    overflow: scroll;
+   
 }
 
 .container  {
@@ -47,7 +47,6 @@ a {
     border-radius: 5px;
     border: 2px solid black;
     color: #fff;
-    /* margin: 1rem ; */
     font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
